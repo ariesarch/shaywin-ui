@@ -1,4 +1,4 @@
-// src/types.d.ts
+// src/custom-elements.d.ts
 
 declare global {
   namespace JSX {
@@ -20,4 +20,4 @@ declare global {
   }
 }
 
-export {};
+export {};  // Ensure no conflicting type declarations are in place

@@ -16,16 +16,16 @@
   "homepage": "https://github.com/ariesarch/shaywin-ui#readme",
   "scripts": {
     "dev": "bunx --bun vite",
-    "build": "bunx --bun vite build",
+    "build": "bunx --bun vite build && cp src/custom-elements.d.ts dist/",
     "preview": "bunx --bun vite preview",
     "check": "bunx --bun svelte-check --tsconfig ./tsconfig.json",
     "package": "bunx --bun svelte-package",
     "prepublishOnly": "bun run build"
   },
-  "types": "dist/types.d.ts",
+  "types": "dist/custom-elements.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/types.d.ts",
+      "types": "./dist/custom-elements.d.ts",
       "import": "./dist/shaywin-ui.js",
       "require": "./dist/shaywin-ui-umd.cjs",
       "svelte": "./dist/shaywin-ui.js",
