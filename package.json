@@ -24,8 +24,11 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/shaywin-ui.d.ts",
-      "require": "./dist/shaywin-ui.js"
+      "types": "./dist/shaywin-ui.d.ts",
+    "import": "./dist/shaywin-ui.js",
+    "require": "./dist/shaywin-ui-umd.cjs",
+    "svelte": "./dist/shaywin-ui.js",
+    "default": "./dist/shaywin-ui.js"
     }
   },
   "files": [
