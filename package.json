@@ -22,7 +22,7 @@
     "package": "bunx --bun svelte-package",
     "prepublishOnly": "bun run build"
   },
-  "types": "dist/custom-elements.d.ts",
+  "types": "dist/types.d.ts",
   "exports": {
     ".": {
       "types": "./dist/shaywin-ui.d.ts",

@@ -52,3 +52,4 @@ customElements.define('s-input', SInputElement);
 // Export the components for use in other parts of your library or for direct use
 export { default as SButton } from './components/atoms/SButton.svelte';
 export { default as SInput } from './components/atoms/SInput.svelte';
+// export * from './types';  
