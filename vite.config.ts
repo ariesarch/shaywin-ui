@@ -25,5 +25,7 @@ export default defineConfig({
       },
     },
   },
-  plugins: [svelte(), dts({ rollupTypes: true })], // Include Svelte and TypeScript definition plugins
+  plugins: [svelte(), 
+    // dts({ rollupTypes: true })
+  ], // Include Svelte and TypeScript definition plugins
 });
