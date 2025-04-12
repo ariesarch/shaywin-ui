@@ -8,12 +8,12 @@
   "keywords": ["svelte", "ui", "components", "atomic-design", "typescript"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/shaywin-ui.git"
+    "url": "git+https://github.com/ariesarch/shaywin-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/shaywin-ui/issues"
+    "url": "https://github.com/ariesarch/shaywin-ui/issues"
   },
-  "homepage": "https://github.com/yourusername/shaywin-ui#readme",
+  "homepage": "https://github.com/ariesarch/shaywin-ui#readme",
   "scripts": {
     "dev": "bunx --bun vite",
     "build": "bunx --bun vite build && bun run package",
