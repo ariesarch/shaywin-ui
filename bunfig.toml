@@ -1,0 +1,6 @@
+[install]
+peer = true
+production = false
+
+[install.scopes]
+svelte = "https://registry.npmjs.org/"
