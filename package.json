@@ -36,7 +36,7 @@
   ],
   "main": "dist/shaywin-ui-umd.cjs",
   "module": "dist/shaywin-ui.js",
-  "peerDependencies": {
+  "dependencies": {
     "svelte": "^4.2.19"
   },
   "devDependencies": {

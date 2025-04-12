@@ -12,9 +12,9 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: path.resolve(__dirname, './src/index.ts'), // Entry point for your library
+      entry: path.resolve(__dirname, './src/index.ts'),
       name: "SimpleUI",
-      fileName: "shaywin-ui",
+      fileName: (format) => `shaywin-ui.${format}.js`, // Generate different files for each format
     },
     rollupOptions: {
       external: ['svelte'], // External dependencies
