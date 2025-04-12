@@ -1,6 +1,5 @@
-import { SvelteComponent } from 'svelte';
+export declare const SButton: any;
 
-export { SvelteComponent as SButton }
-export { SvelteComponent as SInput }
+export declare const SInput: any;
 
 export { }

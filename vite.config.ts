@@ -24,5 +24,9 @@ export default defineConfig({
       },
     },
   },
-  plugins: [svelte(), dts({ rollupTypes: true })],
+  plugins: [svelte({
+    compilerOptions: {
+      customElement: true
+    }
+}), dts({ rollupTypes: true })],
 });
