@@ -24,15 +24,15 @@
   },
   "exports": {
     ".": {
-      "types": "./dist/shaywind-ui.d.ts",
-      "svelte": "./dist/shaywind-ui.js"
+      "types": "./dist/shaywin-ui.d.ts",
+      "svelte": "./dist/shaywin-ui.js"
     }
   },
   "files": [
     "dist"
   ],
-  "main": "dist/shaywind-ui-umd.cjs",
-  "module": "dist/shaywind-ui.js",
+  "main": "dist/shaywin-ui-umd.cjs",
+  "module": "dist/shaywin-ui.js",
   "peerDependencies": {
     "svelte": "^4.2.19"
   },
