@@ -3,11 +3,10 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 import path from 'path';
 import dts from 'vite-plugin-dts';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'), // Adjust as needed
+      '@': path.resolve(__dirname, './src'),
     },
   },
   build: {
@@ -17,15 +16,13 @@ export default defineConfig({
       fileName: (format) => `shaywin-ui.${format}.js`, // Generate different files for each format
     },
     rollupOptions: {
-      external: ['svelte'], // External dependencies
+      external: ['svelte'], // Keep Svelte as an external dependency
       output: {
         globals: {
-          svelte: 'Svelte', // Global variable for Svelte
+          svelte: 'Svelte',
         },
       },
     },
   },
-  plugins: [svelte(), 
-    // dts({ rollupTypes: true })
-  ], // Include Svelte and TypeScript definition plugins
+  plugins: [svelte(), dts({ rollupTypes: true })],
 });
