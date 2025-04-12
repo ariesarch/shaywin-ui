@@ -26,10 +26,10 @@
   "exports": {
     ".": {
       "types": "./dist/shaywin-ui.d.ts",
-    "import": "./dist/shaywin-ui.js",
-    "require": "./dist/shaywin-ui-umd.cjs",
-    "svelte": "./dist/shaywin-ui.js",
-    "default": "./dist/shaywin-ui.js"
+      "import": "./dist/shaywin-ui.js",
+      "require": "./dist/shaywin-ui-umd.cjs",
+      "svelte": "./dist/shaywin-ui.js",
+      "default": "./dist/shaywin-ui.js"
     }
   },
   "files": [
@@ -37,9 +37,6 @@
   ],
   "main": "dist/shaywin-ui-umd.cjs",
   "module": "dist/shaywin-ui.js",
-  "dependencies": {
-    "svelte": "^4.2.19"
-  },
   "devDependencies": {
     "@sveltejs/package": "^2.2.6",
     "@sveltejs/vite-plugin-svelte": "^3.1.2",
