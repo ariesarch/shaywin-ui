@@ -1,6 +1,9 @@
 {
   "extends": "@tsconfig/svelte/tsconfig.json",
   "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "jsx": "react", 
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
